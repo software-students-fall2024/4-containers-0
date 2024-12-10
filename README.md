@@ -42,30 +42,23 @@ The system is fully containerized using Docker and orchestrated with `docker-com
 ### Run the System
 
 1. Build and run all containers:
-   ```bash
    docker compose up --build
-   ```
 
 2. Access the web app in your browser at [http://localhost:5001](http://localhost:5001).
 
 ### Stop the System
 
 1. To stop the containers:
-   ```bash
    docker compose down
-   ```
 
 ### Testing
 
 1. To test the Machine Learning Client:
-   ```bash
    docker exec -it ml_client pytest
-   ```
 
 2. To test the Web App:
-   ```bash
    docker exec -it web_app pytest
-   ```
+ 
 
 ## Environment Variables and Data Setup
 
@@ -77,5 +70,3 @@ The system is fully containerized using Docker and orchestrated with `docker-com
 ### Starter Data
 
 The database is populated with sensor data dynamically by the Machine Learning Client. No additional starter data is required.
-
-```
