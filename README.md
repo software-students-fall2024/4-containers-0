@@ -6,6 +6,7 @@ Build a containerized app that uses machine learning. See [instructions](./instr
 
 
 # Containerized Machine Learning Dashboard
+[![log github events](https://github.com/software-students-fall2024/4-containers-0/actions/workflows/event-logger.yml/badge.svg)](https://github.com/software-students-fall2024/4-containers-0/actions/workflows/event-logger.yml)
 
 ## Project Description
 
