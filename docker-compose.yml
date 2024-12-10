@@ -1,0 +1,27 @@
+services:
+  mongodb:
+    image: mongo
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+
+  ml_client:
+    build:
+      context: ./machine-learning-client
+    container_name: ml_client
+    depends_on:
+      - mongodb
+
+  web_app:
+    build:
+      context: ./web-app
+    container_name: web_app
+    depends_on:
+      - mongodb
+    ports:
+      - "5001:5000"
+
+volumes:
+  mongodb_data:
