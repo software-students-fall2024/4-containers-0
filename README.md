@@ -7,9 +7,6 @@ Build a containerized app that uses machine learning. See [instructions](./instr
 
 # Containerized Machine Learning Dashboard
 
-[![Machine Learning Client Build]
-[![Web App Build]
-
 ## Project Description
 
 This project demonstrates a containerized system for a Machine Learning Dashboard. It consists of three subsystems:
